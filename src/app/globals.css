@@ -1,0 +1,19 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+.main-green-color{
+  color: #50584B
+}
+
+.main-green-bg{
+  background-color: #50584B
+}
+
+.green-gradient{
+  background: linear-gradient(to bottom, #50584B 0%, #8a8e8d 100%);
+}
+
+.container{
+  max-width: 1600px
+}
