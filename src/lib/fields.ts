@@ -12,7 +12,7 @@ export async function getFirstScreen() {
     }`
   };
 
-  const url = 'http://vika.local/graphql';
+  const url = 'https://vika-creator.000.pe/graphql.';
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
 
   if (process.env.WORDPRESS_AUTH_REFRESH_TOKEN) {
